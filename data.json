@@ -1,0 +1,1409 @@
+{
+    "patients": [
+        {
+            "patient_name": "James Smith",
+            "patient_id": 1,
+            "patient_birth_date": "2012-02-01",
+            "gender": "Male",
+            "client": "Pennsylvania United Insurance",
+            "plan": "Independence Group",
+            "sub_client_plan": "Hancock",
+            "patient_city": "Philadelphia",
+            "patient_state": "PA",
+            "patient_zip": "19019",
+            "patient_phone": "267-555-3212",
+            "patient_email": "james.smith@yahoo.com",
+            "pas": [
+                {
+                    "time_in": "10/19/2019 16:25",
+                    "status": "In Process",
+                    "pa_number": 1001,
+                    "due_date": "10/20/2019 16:25",
+                    "drug": "Dupixent",
+                    "drugStrength": "300mg/2ml",
+                    "dosingDirections": "600mg sc x1 then 300mg sc every other week",
+                    "lengthOfTherapy": "1 year",
+                    "ndc": "0024-5914",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "aiRecommendation": "Undecided",
+                    "criteria": "Does Not Meet",
+                    "prescriber": "David Jones",
+                    "pa_html_form": "../html/pavalidation.html",
+                    "timeRemaining": 0.02,
+                    "time_remaining": "00:30:00",
+                    "pa_form": "../pdfs/NHRx_PA_fax_Atopic_Dermatitis_sample5.pdf",
+                    "id": 0,
+                    "clinical_review_notes": [
+                        {
+                            "notes": "Request for Information inquiring about patient history of Protopic",
+                            "date": "2019-10-19",
+                            "reviewed_by": "Jamesson"
+                        }
+                    ],
+                    "rfi": [
+                        {
+                            "type": "Fax",
+                            "request": "<p>During review the following criteria was not met.</p><table><tr><th>Criteria</th><th>Review</th><th>Pass/Fail</th></tr><tr><td>Severe AD: Trial and failure of Protopic</td><td>No history of Protopic</td><td>No</td></tr></table><p>Has the patient tried and failed Protopic in the past?</p>",
+                            "dateTimeOfRequest": "2019-12-12",
+                            "id": 1,
+                            "RequestTitle": "Provide Protopic history"
+                        }
+                    ],
+                    "prescriber_phone": "555-666-7777",
+                    "prescriber_fax": "555-666-8888",
+                    "npi": "1234567890",
+                    "strength": "300 mg",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "decision": "Undecided",
+                    "notifications": "",
+                    "type": "Medical-Speciality Drug Mgmt",
+                    "attachment": null,
+                    "search": null
+                }
+            ],
+            "pa_history": [
+                {
+                    "time_in": "10/13/2019 08:00",
+                    "status": "Complete",
+                    "pa_number": 1002,
+                    "completed_date": "10/20/2019",
+                    "drug": "Eucrisa",
+                    "ndc": "55724-0211-21",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "ai_recommendation": "Approve",
+                    "criteria": "Meets",
+                    "prescriber": "David Jones",
+                    "completed_date_time": "10/19/2019 11:01",
+                    "patype": ""
+                }
+            ],
+            "rx_claims": [
+                {
+                    "drug": "Eucrisa",
+                    "ndc": "55724-0211-21",
+                    "strength": "2% Ointment",
+                    "ser_date_time": "09/13/2019 20:22",
+                    "adj_date_time": "10/19/2019 20:22",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                },
+                {
+                    "drug": "Hydrocortisone",
+                    "ndc": "24385-0021-03",
+                    "strength": "1% Cream ",
+                    "ser_date_time": "09/13/2019 20:22",
+                    "adj_date_time": "10/19/2019 20:22",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                },
+                {
+                    "drug": "Triamcinolone",
+                    "ndc": "00472-0306-15",
+                    "strength": "0.1% Ointment ",
+                    "ser_date_time": "09/13/2019 20:22",
+                    "adj_date_time": "10/19/2019 20:22",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                }
+            ],
+            "drug_allergies": [
+                {
+                    "drug": "Clindamycin",
+                    "ndc": "30345-8743-01",
+                    "type_of_reaction": "Hives",
+                    "date_of_reaction": "12/09/2015",
+                    "source": "EMR 12/9/2015"
+                }
+            ],
+            "dx": [
+                {
+                    "icd_10_cm": "L20",
+                    "description": "Severe Atopic Dermatitis",
+                    "date": "10/19/2019",
+                    "source": ""
+                }
+            ],
+            "labs": [
+                {
+                    "test": "CBC",
+                    "ordered_by": "Perry James MD",
+                    "date": "07/01/2018",
+                    "source": "",
+                    "lab_results": [
+                        {
+                            "baso": "0.02",
+                            "basos": "0.2",
+                            "diff_method": "Auto",
+                            "eos": "4.2",
+                            "eos_number": "0.34",
+                            "hct": "40.1"
+                        }
+                    ]
+                }
+            ],
+            "imaging": [
+                {
+                    "test": "Chest X-Ray",
+                    "summary": "normal",
+                    "date": "09/20/2019",
+                    "source": "",
+                    "image_description": "XR CHEST PA AND LATERAL 2 VIEWS, XR RIBS 3 OR MORE VIEWS WITH PA CHEST (RIGHT) INDICATION: Fall with right sided chest injury and pain. TECHNIQUE: PA and lateral views of the chest. Right rib series. A marker was placed on the skin overlying the site of maximal pain/tenderness at the right lower chest wall. COMPARISON: None. FINDINGS: The cardiopericardial silhouette is normal in size. No focal consolidation, pleural effusion or pulmonary vascular congestion. No pneumothorax.No definite radiographic evidence of an acute right rib fracture. IMPRESSION: No acute pulmonary process.No definite acute right rib fracture is identified radiographically."
+                }
+            ],
+            "immunizations": [
+                {
+                    "immunization": "Influenza Quadrivalent Preservative Free IM",
+                    "date": "10/20/2019"
+                },
+                {
+                    "immunization": "Tdap",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "Meningococcal (MenACWY)",
+                    "date": "4/20/2019"
+                }
+            ],
+            "emr_rx_hx": [
+                {
+                    "drug": "Eucrisa",
+                    "strength": "2% Ointment",
+                    "prescription_date": "10/19/2019",
+                    "expiration_date": "10/19/2020",
+                    "quantity": "30",
+                    "days_supply": "30"
+                },
+                {
+                    "drug": "Hydrocortisone",
+                    "strength": "1% Cream",
+                    "prescription_date": "9/13/2019",
+                    "expiration_date": "9/13/2020",
+                    "quantity": "30",
+                    "days_supply": "30"
+                },
+                {
+                    "drug": "Triamcinolone",
+                    "strength": "0.1% Ointment",
+                    "prescription_date": "9/13/2019",
+                    "expiration_date": "9/13/2020",
+                    "quantity": "30",
+                    "days_supply": "30"
+                }
+            ],
+            "emr_dx": [
+                {
+                    "icd_10_cm": "L20",
+                    "description": "Severe atopic dermatitis",
+                    "date": "9/13/2019",
+                    "source": "9/13/2020"
+                }
+            ],
+            "clinical_review": [
+                {
+                    "time_in": "9/13/2019 08:25",
+                    "status": "In Process",
+                    "pa_number": 1001,
+                    "due_date": "10/20/2019",
+                    "drug": "Pataday",
+                    "ndc": "50345-8795-01",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "ai_recommendation": "Approve",
+                    "criteria": "Yes",
+                    "prescriber": "Perry James"
+                }
+            ],
+            "ai_summary": [
+                {
+                    "criteria": "Diagnosis of moderate to severe atopic dermatitis (AD)",
+                    "review": "severe atopic dermatitis (AD)",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Moderate AD:  Trial and failure of formulary corticosteroid",
+                    "review": "N/A",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Moderate AD: trial and failure of Protopic or Elidel ",
+                    "review": "N/A",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": " Moderate AD: trial and failure of Eucrisa",
+                    "review": "N/A",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Severe AD: Trial and failure of a formulary topical corticosteroid",
+                    "review": "Hydrocortisone 1%",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Severe AD: Trial and failure of Protopic  ",
+                    "review": "No history of Protopic",
+                    "pass_fail": "No"
+                }
+            ],
+            "indicators": [
+                {
+                    "indicator": "rx-claims-indicator",
+                    "text": "No history of Protopic"
+                },
+                {
+                    "indicator": "emr-rx-indicator",
+                    "text": "No history of Protopic"
+                }
+            ]
+        },
+        {
+            "pas": [ {
+                "time_in": "9/22/2020 07:00",
+                "status": "In Process",
+                "pa_number": 1005,
+                "due_date":"9/24/2020 16:25",
+                "pa_form": "../pdfs/medbvsmedd_JonMeechum_D_Antimetic.pdf",
+                "pa_html_form": "../html/medbvsmedd_validate.html"
+            }
+                
+            ]
+        },
+        {
+            "patient_name": "Annabelle Poe",
+            "patient_id": 2,
+            "patient_address": "22 Love Lane",
+            "patient_city": "Weston",
+            "patient_state": "PA",
+            "patient_zip": "",
+            "patient_phone": "267-212-6565",
+            "patient_birth_date": "2019-05-09",
+            "client": "Pennsylvania United Insurance",
+            "plan": "Independence Group",
+            "sub_client_plan": "Hancock",
+            "pas": [
+                {
+                    "time_in": "11/24/2019 16:25",
+                    "status": "In Process",
+                    "pa_number": 1002,
+                    "due_date": "11/25/2019 16:25",
+                    "drug": "Synagis",
+                    "ndc": "60574-4113-1",
+                    "time_remaining": 0.06,
+                    "timeRemaining": "01:30",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "aiRecommendation": "Approve",
+                    "criteria": "Meets",
+                    "prescriber": "Brian Jackson",
+                    "prescriber_address": "6 Peterson Lane",
+                    "npi": "4568329712",
+                    "poc": "Amy",
+                    "prescriber_suite_floor": "2nd",
+                    "prescriber_fax": "555-665-1212",
+                    "prescriber_phone": "555-665-6006",
+                    "gestational_age_at_birth_weeks": 27,
+                    "gestational_age_at_birth_days": 4,
+                    "next_office_visit": "2019-12-12",
+                    "months_to_be_administered": [
+                        11,
+                        12,
+                        1,
+                        2,
+                        3
+                    ],
+                    "infant_dosed_prior_to_dc_from_nursery": "No",
+                    "patient_weight_lbs": 6,
+                    "patient_weight_oz": 1,
+                    "patient_weight_kg": 2.75,
+                    "prescriber_zip": "",
+                    "date_medication_required": "2019-11-27",
+                    "deliver_to_patient_home": false,
+                    "deliver_to_prescriber": true,
+                    "deliver_to_pharmacy": false,
+                    "signed": true,
+                    "date_signed": "2019-11-22",
+                    "pa_html_form": "../html/sygnasisform1.html",
+                    "pa_form": "../pdfs/synagis-form_PA_1.pdf",
+                    "id": 1,
+                    "clinical_review_notes": [
+                        {
+                            "notes": "Meets all criteria. Approved for five doses through March 31, 2020",
+                            "date": "2020-1-10",
+                            "reviewed_by": "Jamesson"
+                        }
+                    ],
+                    "rfi": [],
+                    "strength": "50mg/0.5 ml",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "decision": "Approved",
+                    "notifications": "Meets all criteria. Approved for five doses through March 31, 2020",
+                    "type": "Medical-Speciality Drug Mgmt",
+                    "attachment": "../pdfs/attachment2.pdf",
+                    "search": [
+                        {
+                            "question": "Was child born with a Gestational Age (GA) of < 32 weeks?",
+                            "terms": [
+                                "gestational age",
+                                "ga",
+                                "gestation age"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "pa_history": [
+                {
+                    "time_in": "",
+                    "status": "",
+                    "pa_number": 1002,
+                    "due_date": "",
+                    "drug": "",
+                    "ndc": "",
+                    "reviewer": "",
+                    "due_time": "",
+                    "ai_recommendation": "",
+                    "criteria": "",
+                    "prescriber": "",
+                    "patype": ""
+                }
+            ],
+            "rx_claims": [
+                {
+                    "drug": "",
+                    "ndc": "",
+                    "strength": "",
+                    "ser_date_time": "",
+                    "adj_date_time": "",
+                    "quantity": "",
+                    "days_supply": "",
+                    "prescriber": "",
+                    "prescriber_ndi": "",
+                    "pharmacy": "",
+                    "pharmacy_npi": ""
+                }
+            ],
+            "drug_allergies": [
+                {
+                    "DrugName": "NKDA",
+                    "NDC": "",
+                    "GenericName": "",
+                    "TypeOfReaction": "",
+                    "DateOfReaction": "",
+                    "source": ""
+                }
+            ],
+            "dx": [
+                {
+                    "icd_10_cm": "Z29.11",
+                    "description": "prophylactic immunotherapy for respiratory syncytial virus (RSV)",
+                    "date": "10/19/2019",
+                    "source": ""
+                }
+            ],
+            "labs": [],
+            "imaging": [],
+            "immunizations": [
+                {
+                    "immunization": "HepB",
+                    "date": "10/20/2019"
+                },
+                {
+                    "immunization": "Tdap",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "Hib",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "PCV13",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "IVP",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "RV",
+                    "date": "4/20/2019"
+                }
+            ],
+            "emr_rx_hx": [
+                {
+                    "drug": "",
+                    "strength": "",
+                    "prescription_date": "",
+                    "expiration_date": "",
+                    "quantity": "",
+                    "days_supply": ""
+                }
+            ],
+            "emr_dx": [
+                {
+                    "icd_10_cm": "Z29.11",
+                    "description": "Encounter for prophylactic immunotherapy for respiratory syncytial virus (RSV) Enctr for prphylc immther for resp syncytial virus (RSV)",
+                    "date": "9/13/2019",
+                    "source": ""
+                }
+            ],
+            "clinical_review": [
+                {
+                    "time_in": "9/13/2019 08:25",
+                    "status": "In Process",
+                    "pa_number": 1001,
+                    "due_date": "10/20/2019",
+                    "drug": "Synagis",
+                    "ndc": "60574-4113-1",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "ai_recommendation": "Approve",
+                    "criteria": "Meets",
+                    "prescriber": "Perry James"
+                }
+            ],
+            "ai_summary": [
+                {
+                    "criteria": "Child has a chronological age of > 24 months old",
+                    "review": "Age 3 mos 5 days",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Child has a chronological age of < 12 months old",
+                    "review": "Age 3 mos 5 days",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Child was born prematurely with a gestational age of 28 weeks & 6 days or less AND",
+                    "review": "27 weeks and 4 days",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Child’s current chronological age is less than or equal to 1 year at the beginning of RSV season (November 1st).",
+                    "review": "Age 3 mos 5 days",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Child has a chronological age of 12 to 24 months old",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "The child was born with a Gestational Age (GA) of <32 weeks, 0 days AND",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Required > 21 % oxygen AND,",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "for at least 28 days after birth AND,",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Has confirmed diagnosis of chronic lung disease of prematurity (CLD) a.k.a. bronchopulmonary dysplasia (BPD), (ICD10: P27.1) AND",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Information on how the CLD and/or BPD was diagnosed (i.e. x-ray)",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "AND continues to require medical treatment with either supplemental oxygen, chronic corticosteroids, or diuretic treatment within 6 months of the start of or during the current RSV season",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "supplemental oxygen OR",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "chronic corticosteroids OR",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "diuretic treatment OR",
+                    "review": "",
+                    "pass_fail": "N/A"
+                }
+            ],
+            "indicators": []
+        },
+        {
+            "patient_name": "Peter Brown",
+            "patient_id": 3,
+            "patient_address": "64 Franklin Rd",
+            "patient_city": "Reston",
+            "patient_state": "PA",
+            "patient_zip": "",
+            "patient_phone": "267-626-1212",
+            "patient_birth_date": "2018-10-01",
+            "client": "Pennsylvania United Insurance",
+            "plan": "Independence Group",
+            "sub_client_plan": "Hancock",
+            "pas": [
+                {
+                    "time_in": "11/24/2019 09:00",
+                    "status": "In Process",
+                    "time_remaining": "4 Days",
+                    "timeRemaining": 72,
+                    "pa_number": 1003,
+                    "due_date": "11/25/2019 09:00",
+                    "drug": "Synagis",
+                    "ndc": "60574-4113-1",
+                    "reviewer": "Jamesson",
+                    "due_time": "09:00",
+                    "aiRecommendation": "Deny",
+                    "criteria": "Does not Meet",
+                    "prescriber": "Laura Hays",
+                    "prescriber_address": "66 Beaverton Rd",
+                    "npi": "654987321",
+                    "poc": "Brian",
+                    "prescriber_suite_floor": "3",
+                    "prescriber_fax": "555-626-5555",
+                    "prescriber_phone": "555-626-6565",
+                    "gestational_age_at_birth_weeks": 30,
+                    "gestational_age_at_birth_days": 1,
+                    "next_office_visit": "2019-12-02",
+                    "months_to_be_administered": [
+                        12,
+                        1,
+                        2,
+                        3
+                    ],
+                    "infant_dosed_prior_to_dc_from_nursery": "No",
+                    "patient_weight_lbs": 11,
+                    "patient_weight_oz": 6,
+                    "patient_weight_kg": 5.16,
+                    "prescriber_zip": "",
+                    "date_medication_required": "2019-12-02",
+                    "deliver_to_patient_home": false,
+                    "deliver_to_prescriber": true,
+                    "deliver_to_pharmacy": false,
+                    "signed": true,
+                    "date_signed": "2019-11-25",
+                    "BPD_CLD": true,
+                    "BPD_CLD_Diuretic": true,
+                    "BPD_CLD_Diuretuc_Treatment": "Furosemide",
+                    "BPD_CLD_Bronchodilator": false,
+                    "BPD_CLD_Bronchodilator_Treatment": false,
+                    "BPD_CLD_Continuous_O2": true,
+                    "BPD_CLD_Continuous_O2_Treatment": "23% O2 for 35 Days",
+                    "pa_html_form": "../html/sygnasisform2.html",
+                    "pa_form": "../pdfs/synagis-form_PA_2.pdf",
+                    "clinical_review_notes": [
+                        {
+                            "notes": "Does not meet the criteria for Synagis. The patient is less than 24 months old and older than 12 months old. There was no information on how the CLD and/or BPD was diagnosed.",
+                            "date": "2019-10-19",
+                            "reviewed_by": "Jamesson"
+                        }
+                    ],
+                    "id": 2,
+                    "rfi": "",
+                    "strength": "100 mg/1ml",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "decision": "Denied",
+                    "notifications": "Does not meet the criteria for Synagis. The patient is less than 24 months old and older than 12 months old. There was no information on how the CLD and/or BPD was diagnosed.",
+                    "type": "Medical-Speciality Drug Mgmt",
+                    "attachment": "../pdfs/attachment2.pdf",
+                    "search": [
+                        {
+                            "question": "Was child born with a Gestational Age (GA) of < 32 weeks?",
+                            "terms": [
+                                "gestational age",
+                                "ga",
+                                "gestation age"
+                            ]
+                        },
+                        {
+                            "question": "Was imaging used in diagnosis?",
+                            "terms": [
+                                "x-ray",
+                                "ct",
+                                "mri"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "pa_history": [
+                {
+                    "time_in": "",
+                    "status": "",
+                    "pa_number": 1002,
+                    "due_date": "",
+                    "drug": "",
+                    "ndc": "",
+                    "reviewer": "",
+                    "due_time": "",
+                    "ai_recommendation": "",
+                    "criteria": "",
+                    "prescriber": "",
+                    "completed_date_date": "",
+                    "patype": ""
+                }
+            ],
+            "rx_claims": [
+                {
+                    "drug": "Furosemide",
+                    "ndc": "00054-3298-63",
+                    "strength": "40mg/5ml oral solution",
+                    "ser_date_time": "09/13/2019 20:22",
+                    "adj_date_time": "10/19/2019 20:22",
+                    "quantity": "30",
+                    "days_supply": "30",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                }
+            ],
+            "drug_allergies": [
+                {
+                    "drug": "Amoxicillin",
+                    "ndc": "00005-3146-43",
+                    "type_of_reaction": "Rash",
+                    "date_of_reaction": "2/04/2019",
+                    "source": "EMR 2/4/2019"
+                }
+            ],
+            "dx": [
+                {
+                    "icd_10_cm": "P27.1",
+                    "description": "Bronchopulmonary Dysplasia",
+                    "date": "10/19/2019",
+                    "source": ""
+                }
+            ],
+            "labs": [],
+            "imaging": [],
+            "immunizations": [
+                {
+                    "immunization": "Tdap",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "Hib",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "PCV13",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "IPV",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "Influenza",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "MMR",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "Varicella",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "HepA",
+                    "date": "4/20/2019"
+                }
+            ],
+            "emr_rx_hx": [
+                {
+                    "drug": "Furosemide",
+                    "strength": "40mg/5ml oral solution",
+                    "prescription_date": "2/19/2019",
+                    "expiration_date": "3/19/2020",
+                    "quantity": "4",
+                    "days_supply": "4"
+                },
+                {
+                    "drug": "Furosemide",
+                    "strength": "40mg/5ml oral solution",
+                    "prescription_date": "10/15/2018",
+                    "expiration_date": "10/16/2018",
+                    "quantity": "2",
+                    "days_supply": "2"
+                }
+            ],
+            "emr_dx": [
+                {
+                    "icd_10_cm": "P27.1",
+                    "description": "Bronchopulmonary Dysplasia",
+                    "date": "10/19/2019",
+                    "source": ""
+                }
+            ],
+            "clinical_review": [
+                {
+                    "time_in": "9/13/2019 08:25",
+                    "status": "In Process",
+                    "pa_number": 1001,
+                    "due_date": "10/20/2019",
+                    "drug": "Furosemide",
+                    "ndc": "00054-3298-63",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "ai_recommendation": "Approve",
+                    "criteria": "Meets",
+                    "prescriber": "Perry James"
+                }
+            ],
+            "ai_summary": [
+                {
+                    "criteria": "Child has a chronological age of > 24 months old",
+                    "review": "13 months and 2 weeks",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Child has a chronological age of < 12 months old",
+                    "review": "13 months and 2 weeks",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Child has a chronological age of 12 to 24 months old",
+                    "review": "13 months and 2 weeks",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "The child was born with a Gestational Age (GA) of <32 weeks, 0 days AND",
+                    "review": "GA of 30 weeks",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Required > 21 % oxygen AND,",
+                    "review": "23% O2",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "for at least 28 days after birth AND,",
+                    "review": "35 days",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Has confirmed diagnosis of chronic lung disease of prematurity (CLD) a.k.a. bronchopulmonary dysplasia (BPD), (ICD10: P27.1) AND",
+                    "review": " Diagnosis in EMR: P27.1, Bronchopulmonary Dysplasia",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Information on how the CLD and/or BPD was diagnosed (i.e. x-ray)",
+                    "review": "No information",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "AND continues to require medical treatment with either supplemental oxygen, chronic corticosteroids, or diuretic treatment within 6 months of the start of or during the current RSV season",
+                    "review": "Furosemide in the history",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "supplemental oxygen OR",
+                    "review": "Does not meet",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "chronic corticosteroids OR",
+                    "review": "Does not meet",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "diuretic treatment OR",
+                    "review": "Claims History 9/13/2019 Furosemide 40mg/5ml oral solution",
+                    "pass_fail": "Yes"
+                }
+            ],
+            "indicators": [
+                {
+                    "indicator": "pa-history-indicator",
+                    "text": "Furosemide in the history"
+                },
+                {
+                    "indicator": "rx-claims-indicator",
+                    "text": "Furosemide in the history"
+                },
+                {
+                    "indicator": "emr-rx-indicator",
+                    "text": "Furosemide in the history"
+                },
+                {
+                    "indicator": "imaging-indicator",
+                    "text": "No information on how the CLD and/or BPD was diagnosed"
+                }
+            ]
+        },
+        {
+            "patient_name": "James Smithison",
+            "patient_id": 6,
+            "patient_birth_date": "2001-02-01",
+            "gender": "Male",
+            "client": "Pennsylvania United Insurance",
+            "plan": "Independance Group",
+            "sub_client_plan": "Hancock",
+            "patient_city": "Philadelphia",
+            "patient_state": "PA",
+            "patient_zip": "19019",
+            "patient_phone": "267-555-3212",
+            "patient_email": "james.smithison@yahoo.com",
+            "pas": [
+                {
+                    "time_in": "1/19/2020 12:25",
+                    "status": "In Process",
+                    "pa_number": 1004,
+                    "due_date": "1/20/2020 16:25",
+                    "drug": "Orencia",
+                    "drugStrength": "----",
+                    "dosingDirections": "---",
+                    "lengthOfTherapy": "---",
+                    "ndc": "0003-2187-10",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "aiRecommendation": "Undecided",
+                    "criteria": "Does Not Meet",
+                    "prescriber": "David Jones",
+                    "pa_html_form": "../html/sensipar_validate.html",
+                    "timeRemaining": 0.02,
+                    "time_remaining": "00:30:00",
+                    "pa_form": "../pdfs/Sensipar_FaxDenial_MasonChamberlain_EF.pdf",
+                    "id": 3,
+                    "clinical_review_notes": [
+                        {
+                            "notes": "Request for Information inquiring about patient diagnosis of RA or PsA",
+                            "date": "2020-1-19",
+                            "reviewed_by": "Jamesson"
+                        }
+                    ],
+                    "rfi": [
+                        {
+                            "type": "Fax",
+                            "request": "<p>During review the following criteria was not met.</p><table><tr><th>Criteria</th><th>Review</th><th>Pass/Fail</th></tr><tr><td>Has the patient been diagnosed with Rheumatoid arthritis (RA)?</td><td>No history of diagnosis</td><td>No</td></tr><tr><td>Has the patient been diagnosed with Psoriatic arthritis (PsA)?</td><td>No history of diagnosis</td><td>No</td></tr></table><p>Has the patient been diagnosed with RA or PsA?</p>",
+                            "dateTimeOfRequest": "2020-1-19",
+                            "id": 2,
+                            "RequestTitle": "Provide diagnosis"
+                        }
+                    ],
+                    "prescriber_phone": "555-666-7777",
+                    "prescriber_fax": "555-666-8888",
+                    "npi": "1234567890",
+                    "strength": "---",
+                    "quantity": "--",
+                    "days_supply": "90",
+                    "decision": "Undecided",
+                    "notifications": "",
+                    "type": "Medical-Speciality Drug Mgmt"
+                }
+            ],
+            "pa_history": [
+                {
+                    "time_in": "10/13/2019 08:00",
+                    "status": "Complete",
+                    "pa_number": 1002,
+                    "completed_date": "10/20/2019",
+                    "drug": "Eucrisa",
+                    "ndc": "55724-0211-21",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "ai_recommendation": "Approve",
+                    "criteria": "Meets",
+                    "prescriber": "David Jones",
+                    "completed_date_time": "10/19/2019 11:01",
+                    "patype": "Pharmacy-Drug"
+                }
+            ],
+            "rx_claims": [
+                {
+                    "drug": "Otrexup (Methotrexate)",
+                    "ndc": "0703-3678-01",
+                    "strength": "10 mg/0.4 ml",
+                    "ser_date_time": "12/17/2019 21:22",
+                    "adj_date_time": "12/17/2019 21:22",
+                    "quantity": "1.6 ml",
+                    "days_supply": "28",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                },
+                {
+                    "drug": "Otrexup (Methotrexate)",
+                    "ndc": "0703-3678-01",
+                    "strength": "10 mg/0.4 ml",
+                    "ser_date_time": "11/15/2019 20:13",
+                    "adj_date_time": "11/15/2019 20:13",
+                    "quantity": "1.6 ml",
+                    "days_supply": "28",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                },
+                {
+                    "drug": "Otrexup (Methotrexate)",
+                    "ndc": "0703-3678-01",
+                    "strength": "10 mg/0.4 ml",
+                    "ser_date_time": "10/19/2019 20:22",
+                    "adj_date_time": "10/19/2019 20:22",
+                    "quantity": "1.6 ml",
+                    "days_supply": "28",
+                    "prescriber": "Schift",
+                    "prescriber_ndi": "098765",
+                    "pharmacy": "Walgreens",
+                    "pharmacy_npi": "PID-076543"
+                }
+            ],
+            "drug_allergies": [
+                {
+                    "drug": "Clindamycin",
+                    "ndc": "30345-8743-01",
+                    "type_of_reaction": "Hives",
+                    "date_of_reaction": "12/09/2015",
+                    "source": "EMR 12/9/2015"
+                }
+            ],
+            "dx": [
+                {
+                    "icd_10_cm": "L20",
+                    "description": "Severe Atopic Dermatitis",
+                    "date": "10/19/2019",
+                    "source": ""
+                }
+            ],
+            "labs": [
+                {
+                    "test": "CBC",
+                    "ordered_by": "Perry James MD",
+                    "date": "07/01/2018",
+                    "source": "",
+                    "lab_results": [
+                        {
+                            "name": "baso",
+                            "value": 0.02
+                        },
+                        {
+                            "name": "basos",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "diff_method",
+                            "value": "Auto"
+                        },
+                        {
+                            "name": "eos",
+                            "value": 4.2
+                        },
+                        {
+                            "name": "eos_number",
+                            "value": 0.34
+                        },
+                        {
+                            "name": "hct",
+                            "value": 40.1
+                        }
+                    ]
+                },
+                {
+                    "test": "Hep B",
+                    "ordered_by": "Perry James MD",
+                    "date": "02/10/2020",
+                    "source": "",
+                    "lab_results": [
+                        {
+                            "name": "HBsAg",
+                            "value": "Negative"
+                        },
+                        {
+                            "name": "Total anti-HBc",
+                            "value": "Negative"
+                        },
+                        {
+                            "name": "IgM anti-HBc",
+                            "value": "Negative"
+                        },
+                        {
+                            "name": "Anti-HBs",
+                            "value": "Negative"
+                        }
+                    ]
+                },
+                {
+                    "test": "TST",
+                    "ordered_by": "Perry James MD",
+                    "date": "02/10/2020",
+                    "source": "",
+                    "lab_results": [
+                        {
+                            "name": "Induration",
+                            "value": 0
+                        }
+                    ]
+                }
+            ],
+            "imaging": [
+                {
+                    "test": "Chest X-Ray",
+                    "summary": "normal",
+                    "date": "09/20/2019",
+                    "source": "",
+                    "image_description": "XR CHEST PA AND LATERAL 2 VIEWS, XR RIBS 3 OR MORE VIEWS WITH PA CHEST (RIGHT) INDICATION: Fall with right sided chest injury and pain. TECHNIQUE: PA and lateral views of the chest. Right rib series. A marker was placed on the skin overlying the site of maximal pain/tenderness at the right lower chest wall. COMPARISON: None. FINDINGS: The cardiopericardial silhouette is normal in size. No focal consolidation, pleural effusion or pulmonary vascular congestion. No pneumothorax.No definite radiographic evidence of an acute right rib fracture. IMPRESSION: No acute pulmonary process.No definite acute right rib fracture is identified radiographically."
+                }
+            ],
+            "immunizations": [
+                {
+                    "immunization": "Influenza Quadrivalent Preservative Free IM",
+                    "date": "10/20/2019"
+                },
+                {
+                    "immunization": "Tdap",
+                    "date": "4/20/2019"
+                },
+                {
+                    "immunization": "Meningococcal (MenACWY)",
+                    "date": "4/20/2019"
+                }
+            ],
+            "emr_rx_hx": [
+                {
+                    "drug": "Otrexup (Methotrexate)",
+                    "strength": "10 mg/0.4 ml",
+                    "prescription_date": "10/19/2019",
+                    "expiration_date": "10/19/2020",
+                    "quantity": "1.6 ml",
+                    "days_supply": "28"
+                }
+            ],
+            "emr_dx": [
+                {
+                    "icd_10_cm": "L20",
+                    "description": "Severe Atopic Dermatitis",
+                    "date": "10/19/2019",
+                    "source": ""
+                }
+            ],
+            "clinical_review": [
+                {
+                    "time_in": "1/19/2020 08:25",
+                    "status": "In Process",
+                    "pa_number": 1001,
+                    "due_date": "1/20/2020",
+                    "drug": "Orencia",
+                    "ndc": "0003-2187-10",
+                    "reviewer": "Jamesson",
+                    "due_time": "0800",
+                    "ai_recommendation": "Approve",
+                    "criteria": "Yes",
+                    "prescriber": "Perry James"
+                }
+            ],
+            "ai_summary": [
+                {
+                    "criteria": "Is this an initial request?",
+                    "review": "Yes",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Does the patient have a diagnosis of Rheumatoid arthritis (RA)?",
+                    "review": "No diagnosis",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Was Orencia prescribed by or in consultation with a rheumatologist?",
+                    "review": "rheumatologist, Dr David Jones",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Has the patient had a 3-month trial of at least one biologic agent for RA?",
+                    "review": "",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Had a 3-month trial of at least one conventional synthetic disease-modifying antirheumatic drug (sDMARD) (e.g., methotrexate, leflunomide, hydroxychloroquine)?",
+                    "review": "Name of sDMARD (Otrexup)",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Does the patient have a diagnosis of Psoriatic arthritis (PsA)?",
+                    "review": "No diagnosis",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Was Orencia prescribed by or in consultation with a dermatologist or a rheumatologist?",
+                    "review": "rheumatologist, Dr David Jones",
+                    "pass_fail": "Yes"
+                },
+                {
+                    "criteria": "Does the patient have a diagnosis of Juvenile idiopathic arthritis (JIA)?",
+                    "review": "No diagnosis",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Was Orencia prescribed by or in consultation with a rheumatologist?",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Has the patient had a  trial of a biologic agent for JIA (e.g., adalimumab, etanercept)?",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Has the patient had a  trial of a non-biologic agent for JIA (e.g., methotrexate, leflunomide)?",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Will Orencia will be started concurrently with methotrexate, leflunomide, or sulfasalazine?",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Does the patient have an absolute contraindication to methotrexate, leflunomide, or sulfasalazine (e.g., pregnancy, alcoholic liver disease, immunodeficiency syndrome, blood dyscrasias)?",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Does the patient have aggressive disease?",
+                    "review": "",
+                    "pass_fail": "N/A"
+                },
+                {
+                    "criteria": "Is this a re-authorization request?",
+                    "review": "",
+                    "pass_fail": "No"
+                },
+                {
+                    "criteria": "Has the patient had a response to Orencia therapy (e.g., less joint pain, less morning stiffness, or less fatigue, improved function or activities of daily living)",
+                    "review": "",
+                    "pass_fail": "N/A"
+                }
+            ],
+            "indicators": [
+                {
+                    "indicator": "rx-claims-indicator",
+                    "text": "No history of diagnosis"
+                },
+                {
+                    "indicator": "emr-dx-indicator",
+                    "text": "No history of diagnosis"
+                },
+                {
+                    "indicator": "dx-indicator",
+                    "text": "No history of diagnosis"
+                },
+                {
+                    "indicator": "pa-history-indicator",
+                    "text": "No history of diagnosis"
+                }
+            ]
+        },
+        {
+            "patient_id": 37,
+            "pas": [],
+            "emr_rx_hx": [
+                {
+                    "drug": "Trulance",
+                    "strength": "3 mg",
+                    "prescription_date": "4/14/2017",
+                    "expiration_date": "4/14/2018",
+                    "quantity": "30",
+                    "dosage": "3 mg 1 X per day",
+                    "days_supply": "30",
+                    "refills": "6"
+                },
+                {
+                    "drug": "Senna",
+                    "strength": "8.6 mg",
+                    "prescription_date": "3/15/2015",
+                    "expiration_date": "3/15/2016",
+                    "quantity": "100",
+                    "dosage": "2 tablets at bedtime",
+                    "days_supply": "50",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Docusate Sodium",
+                    "strength": "100 mg",
+                    "prescription_date": "3/15/2015",
+                    "expiration_date": "3/15/2016",
+                    "quantity": "100",
+                    "dosage": "1 capsule 3 x per day as needed",
+                    "days_supply": "33",
+                    "refills": "11"
+                }
+            ]
+        },
+        {
+            "patient_id": 38,
+            "pas": [],
+            "emr_rx_hx": [
+                {
+                    "drug": "Remicade",
+                    "strength": "100 mg",
+                    "prescription_date": "9/22/2020",
+                    "expiration_date": "8/25/2020",
+                    "quantity": "",
+                    "dosage": "200mg every 2 weeks for 6 weeks then every 8 weeks after initial dosage",
+                    "days_supply": "",
+                    "refills": ""
+                },
+                {
+                    "drug": "Enbrel 50mg SureClick",
+                    "strength": "500 mg",
+                    "prescription_date": "8/1/2019",
+                    "expiration_date": "8/1/2020",
+                    "quantity": "4",
+                    "dosage": "1 SQ Qweek",
+                    "days_supply": "28",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Humira 40mg/0.8mL",
+                    "strength": "40 mg",
+                    "prescription_date": "8/1/2018",
+                    "expiration_date": "8/1/2019",
+                    "quantity": "1.6",
+                    "dosage": "40mg SQ Qweek",
+                    "days_supply": "28",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Sulfasalazine",
+                    "strength": "500 mg",
+                    "prescription_date": "6/25/2018",
+                    "expiration_date": "7/25/2018",
+                    "quantity": "120",
+                    "dosage": "2 BID",
+                    "days_supply": "30",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Methotrexate Sodium 2.5mg",
+                    "strength": "",
+                    "prescription_date": "5/25/2018",
+                    "expiration_date": "5/25/2019",
+                    "quantity": "12",
+                    "dosage": "7.5mg po Qweek",
+                    "days_supply": "28",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Hydroxychloroquine Sulfate 200mg",
+                    "strength": "200 mg",
+                    "prescription_date": "6/3/2015",
+                    "expiration_date": "6/3/2016",
+                    "quantity": "60",
+                    "dosage": "1 BID",
+                    "days_supply": "30",
+                    "refills": "11"
+                }
+            ]
+        },
+        {
+            "patient_id": 39,
+            "pas": [],
+            "emr_rx_hx": [
+                {
+                    "drug": "Humira 40mg",
+                    "strength": "40 mg",
+                    "prescription_date": "9/22/2020",
+                    "expiration_date": "9/25/2020",
+                    "quantity": "30",
+                    "dosage": "1 TID",
+                    "days_supply": "30",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Imuran 50mg",
+                    "strength": "50 mg",
+                    "prescription_date": "7/1/2020",
+                    "expiration_date": "7/1/2020",
+                    "quantity": "90",
+                    "dosage": "1 TID",
+                    "days_supply": "30",
+                    "refills": "11"
+                },
+                {
+                    "drug": "Sulfasalazine 500mg ",
+                    "strength": "500 mg",
+                    "prescription_date": "5/1/2020",
+                    "expiration_date": "5/1/2021",
+                    "quantity": "60",
+                    "dosage": "1 BID",
+                    "days_supply": "30",
+                    "refills": "11"
+                }
+            ]
+        },
+        {
+            "patient_id": 36,
+            "pas": [],
+            "emr_rx_hx": [
+                {
+                    "drug": "Sensipar",
+                    "strength": "",
+                    "prescription_date": "9/22/2020",
+                    "expiration_date": "9/25/2020",
+                    "quantity": "",
+                    "dosage": "",
+                    "days_supply": "",
+                    "refills": ""
+                }
+            ]
+        },
+        {
+            "patient_id": 34,
+            "pas": [],
+            "emr_rx_hx": [
+                {
+                    "drug": "Ondansetron",
+                    "strength": "8 mg PO q12h PRN",
+                    "prescription_date": "9/22/2020",
+                    "expiration_date": "9/25/2020",
+                    "quantity": "",
+                    "dosage": "",
+                    "days_supply": "",
+                    "refills": ""
+                }
+            ]
+        },
+        {
+            "patient_id": 35,
+            "pas": [],
+            "emr_rx_hx": [
+                {
+                    "drug": "Tacrolimus",
+                    "strength": "3 mg PO BID",
+                    "prescription_date": "9/22/2020",
+                    "expiration_date": "9/25/2020",
+                    "quantity": "",
+                    "dosage": "",
+                    "days_supply": "",
+                    "refills": ""
+                }
+            ]
+        }
+    ]
+}
