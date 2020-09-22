@@ -3,6 +3,7 @@ Using data from the data.json file, create a Kendo UI grid to display patients. 
 It's advisable to use a Node.js server with Express locally.
 If you have any questions please don't hesitate to contact me.
 
-# Useful links
+# Useful link
+Kendo UI Demos https://demos.telerik.com/kendo-ui/
 
 
